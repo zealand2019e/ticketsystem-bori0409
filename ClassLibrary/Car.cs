@@ -10,7 +10,12 @@ namespace TicketLibrary
 
         public override double Price()
         {
-            return 240;
+            if (brobizz)
+            { return 240 * 0.95; }
+            else
+            {
+                return 240;
+            }
         }
 
         public override string VehicleType()

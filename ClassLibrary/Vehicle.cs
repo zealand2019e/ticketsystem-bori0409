@@ -6,6 +6,7 @@ namespace TicketLibrary
     {
 
         private string _licens;
+        public bool brobizz = true;
 
         //properrties 
          public  string Licenseplate
