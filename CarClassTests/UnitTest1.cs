@@ -13,7 +13,7 @@ namespace CarClassTests
         {
             Car car = new Car();
             double price = car.Price();
-            bool brobizz = false;
+            
 
             Assert.AreEqual(228, price);
 

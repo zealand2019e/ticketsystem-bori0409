@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TicketLibrary</name>
+    </assembly>
+    <members>
+        <member name="M:TicketLibrary.Car.Price">
+            <summary>
+            the method Price() 
+            </summary>
+            <returns> if the brobizz is true it returns "228" or brobiz false "240"</returns>
+        </member>
+        <member name="M:TicketLibrary.Car.VehicleType">
+             <summary>
+            VechicleType is overriden here
+             </summary>
+             <returns> "Car"</returns>
+        </member>
+        <member name="M:TicketLibrary.MC.Price">
+            <summary>
+             method Price(), overriden
+            </summary>
+            <returns> returns 125</returns>
+        </member>
+        <member name="M:TicketLibrary.MC.VehicleType">
+            <summary>
+            VehicleType()
+            </summary>
+            <returns>"MC"</returns>
+        </member>
+        <member name="F:TicketLibrary.Vehicle._licens">
+            <summary>
+            Vehicle is th base class
+            
+            </summary>
+        </member>
+        <member name="F:TicketLibrary.Vehicle.brobizz">
+            <summary>
+            we have property brobizz which is bool ( brobizz = true means 5% disscount )
+            </summary>
+        </member>
+        <member name="P:TicketLibrary.Vehicle.Licenseplate">
+            <summary>
+            Licenseplate is the prop fot the GegNumber
+            </summary>
+        </member>
+        <member name="M:TicketLibrary.Vehicle.Price">
+            <summary>
+            2 abstract methods Price and VehicleType that are overriden in the spec class
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
