@@ -17,7 +17,7 @@ namespace TEstingStor
             cars.Date = dates;
             double ac = cars.Price();
             
-            Assert.AreEqual(ac, 182.40);
+            Assert.AreEqual(ac, 182.4, 0.1);
 
 
 
